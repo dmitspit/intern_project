@@ -1,0 +1,1 @@
+{"version":3,"file":"mixins.css","sources":["base/mixins.scss"],"sourcesContent":["\r\n@mixin btn {\r\n    padding: 2px 50px 2px 50px;\r\n    border-radius: 20px;\r\n    background-color: $ofs_global_main_color;\r\n    font-size: 15px;\r\n    color: $main_baground_color;\r\n    margin-bottom: 20px;\r\n  };"],"names":[],"mappings":""}

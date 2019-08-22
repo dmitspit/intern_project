@@ -1,0 +1,26 @@
+@import "base/var.scss";
+@import "base/mixins.scss";
+#exampleModalCenter{
+    .modal-header{
+       h2{ 
+           margin-left: 180px;
+        }
+    }
+    .modal-body{
+        form{
+            .submit {
+                margin-left: 150px;
+                button {
+                    @include btn
+                }
+                a {
+               
+                color:$ofs_global_main_color;
+                position: absolute;
+                top: 80%;
+                left:-2%;
+                }
+            }
+        }
+    }
+}

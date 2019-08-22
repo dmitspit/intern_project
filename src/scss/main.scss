@@ -1,0 +1,457 @@
+@import "base/var.scss";
+@import "base/section_header.scss";
+@import "loginModal.scss";
+@import "base/section_footer.scss";
+
+
+body{
+    font-weight: $main_font_waight;
+    box-sizing: border-box;
+    color: $main_text_color;
+    font-family: 'Lato', sans-serif;
+}
+
+#slider{
+    margin-top: 25px;
+   .slider{
+        .left_text{
+        text-align: left;
+        left: 60px;
+        }
+       .right_text{
+        text-align: right;
+        right: 60px;
+        }
+           .carousel-caption {
+               margin-bottom: 40px;
+            h3 {
+                font-size: 48px;
+                font-weight: 700;
+                margin-bottom: 114px;
+            }
+            p {
+                font-size: $main_font_size;
+                font-weight: $main_font_waight;
+                margin-bottom: 60px;
+            }
+            a{
+                height: 37px;
+                width: 148px;
+                border-radius: 20px;
+            }
+           }
+       .carousel-indicators li {
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        &.active, &:hover {
+            margin: 0 2px;
+            width: 12px;
+            height: 12px;
+            background-color: $main_text_color;
+            border-radius: 100%;        
+          }
+      }
+   }
+
+   .follow_info{
+       img{
+           border-radius: 7px;
+       }
+       h6{
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: $main_font_waight;
+        line-height: 18px;
+       }
+       p{
+        font-size: 13px;
+        margin: 17px 0px 32px 0px;
+       }
+       button{
+           border-radius: 20px;
+           width: 147px;
+           i{
+               margin-right: 4px;
+           }
+       }
+   }
+}
+
+#popular_items {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: $section_popular_items_bg_color;
+    font-weight: $main_font_waight;
+    hr {
+        padding: 0;
+        border: 3px solid $main_text_color;
+        border-top:  3px $main_baground_color;
+        color: $main_baground_color;
+        text-align: center;    
+        font-size:12px;
+        &:after{
+                content:"Popular Items";
+                display: inline-block;
+                position: relative; 
+                top: -0.7em;  
+                font-size: 24px;
+                font-weight: 400;
+                padding: 0px 40px 0px 40px;
+                background: $section_popular_items_bg_color;
+            
+        }
+    }
+    .popular_items_card, .outPut{
+        .card{
+         width: 271px;
+         height: 366px;
+         margin: 0px 0px 20px 0px;
+        }
+         
+         img{
+             width: 100%;
+         }
+         .img-container{
+             position:relative;
+         
+         
+         & .overlay{
+             position:absolute;
+             top:0;
+             left:0;
+             width:100%;
+             height:100%;
+             background:#3fd39f;
+             opacity:0;
+             transition:opacity 500ms ease-in-out;
+         }
+         &:hover .overlay{
+             opacity:0.9;
+         }
+         .overlay a{
+             position:absolute;
+             top:50%;
+             left:50%;
+             transform:translate(-90%,-50%);
+             color:#fff;
+             &:last-child{
+                 position:absolute;
+                 top:50%;
+                 left: 50%;
+                 transform:translate(-10%,-50%);
+                 color:#fff;
+             }
+         }
+         a img{
+             width: 70%;
+         }
+     }
+   }
+   .card-body{
+    a{
+        text-decoration: none;
+        color: $section_popular_items_textColor;
+    }
+         padding: 20px 40px 0px 40px;
+       h6{
+         font-size: $section_popular_items_fontSize;
+         line-height: $section_popular_items_lineHeight;
+         font-weight: $main_font_waight;
+       }
+       .card-footer{
+           background-color: $main_baground_color;
+           margin: 0 auto;
+           border: none;
+       }
+       .btn_info{
+           width: 190px;
+           height: 38px;
+        //    margin: 0 auto;
+           border: 2px solid #e6e3e3;
+           border-radius: 20px;
+           .prise{
+              position: absolute;
+              left: 20%;
+              top: 90.5%;
+           }
+           .btn_counter{
+            color: black;
+            font-weight: 500;
+            position: absolute;
+            margin: 0;
+            margin-top: 4px;
+            padding: 0;
+        }
+      
+       }
+      
+}
+      ////6.	PRODUCT_TILE_6
+      .card-img-overlay{
+        color: $main_baground_color;
+        text-align: left;
+        background-image: linear-gradient(to top, #675b99 0%, #dc5987 100%);
+        opacity: 0.8;
+        p{
+          margin-top: 180px;
+          width: 141px;
+          height: 60px;
+          font-size: 16px;
+          font-weight: $main_font_waight;
+          margin-bottom: 40px;
+        }
+      img{
+          width: 24px;
+          height: 28px;
+      }
+  }
+    
+  .loadMore{
+    font-size: $main_font_size;
+    width: 261px;
+    height: 36px;
+    border: 2px solid #e8e2d6;
+    border-radius: 20px;
+i{
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+    margin-left: 26px;}
+    } 
+}
+#baner{
+    .baner{ 
+         width: 100%; 
+         height: 500px;
+         background: url('../img/baner/Layer_148.png') no-repeat center top / cover;
+        }
+    .col-12{
+        margin-top: 15%;
+    }
+ h1{
+     color: $main_baground_color;
+     font-weight: 700;
+     font-size: 48px;
+ }
+ p{
+     text-align: center;
+    height: 38px;
+    font-size: $main_font_size;
+    color:$main_baground_color;
+    font-weight:$main_font_waight;
+ }
+}
+
+
+#featured_carousel{
+    background-color: $section_popular_items_bg_color;
+    #featured_products{
+        padding-top: 40px;
+        color: $main_baground_color;
+        font-weight:$main_font_waight;
+        p {
+            font-size: $main_font_size;
+        }
+    }
+    .featured_carousel{
+           hr{
+               width: 300px;
+               background-color: #e6e3e3;
+               position: absolute;
+               top: 2.5%;
+               left:37%;
+               color: $main_baground_color;
+                 text-align: center;    
+        &:after{
+                content:"///";
+                display: inline-block;
+                position: relative; 
+                top: -0.7em;  
+                padding: 0px 20px 0px 20px;
+                background: $section_popular_items_bg_color;
+            
+        } 
+           }
+           .fa-chevron-left{
+            color: $main_baground_color;
+            width: 30px;
+            height: 30px;
+            margin-right: 100px;
+          }
+          .fa-chevron-right{
+            color: $main_baground_color;
+            width: 30px;
+            height: 30px;
+            margin-left: 300px;
+          }
+          .card{
+           border-radius: 5px;
+            width: 253px;
+            height: 310px;
+            margin: 20px 20px 20px 10px;
+            img{
+                width: 100%;
+                height: 180px;
+            }
+            .card-body{
+                padding: 20px 30px 0px 30px;
+            }
+            .card-footer{
+                background-color: $main_baground_color;
+                border: none;
+                padding: 0px 0px 10px 0px;
+                a{
+                    text-decoration: none;
+                    color: #84bc22;
+                }
+            }
+          }
+    }
+}
+#benefints_content{
+    padding-top: 40px;
+    min-height: 200px;
+    background-color: #45413e;
+    color: #868380;
+    font-size: $main_font_size;
+    font-weight: $main_font_waight;
+    img{
+        width: 55px;
+        height: 67px;
+    }
+    h4{
+        color: $main_baground_color;
+    }
+}
+
+
+// --------- MEDIA-------//
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+
+    #header{
+        nav{
+            .responsive_services{
+                display: inherit;
+                margin-left: 95px;
+                a{
+                    text-decoration: none;
+                    color: $main_text_color;
+                }
+                ul li a{
+                    text-align: left;
+                    padding-left: 0px;
+                }
+                li {
+                    list-style-type: none;
+                  }
+            }
+            .logo_company{
+                margin-left: 60px;
+            }
+            .navbar-nav{
+                display: none;
+    ////------Dropdown menu----///////
+                .dropdown-menu{
+                 display: none;
+                }
+            }
+            .changeCurency, .changeLanguage a{
+              display: none;
+            }
+            .social_items{
+                margin-left: 5px;
+            }
+        } 
+    }
+
+
+//////////////    
+    #slider{
+        .slider{
+             .left_text{
+             left: 20px;
+             }
+            .right_text{
+             right: 20px;
+             }
+                .carousel-caption {
+                    margin-bottom: 70px;
+                 h3 {
+                     font-size: 25px;
+                     margin-bottom: 45px;
+                 }
+                }
+     }    
+ }
+ .follow_info{
+     min-width: 100%;
+ margin-top: 20px;
+     }
+     .popular_items_card{
+         margin-left: 40px;
+     }
+
+
+#popular_items {
+        .popular_items_card, .outPut{
+            .card{
+             margin: 0px 0px 20px -28px;
+            }
+     }
+    }
+
+#baner{
+    .baner{ 
+        width: 100%;
+        height: 200px;
+        background-position: center center;
+        }
+    .col-12{
+        margin-top: 15%;
+    }
+     h1{
+         color: $main_baground_color;
+         font-weight: 700;
+         font-size: 28px;
+     }
+}
+
+#featured_carousel{ 
+    display: none;
+}
+
+
+#benefints_content{
+    padding:20px;
+    font-size: $main_font_size;
+}
+
+footer{
+    font-size: $main_font_size;
+    .footer{
+        height:100%;
+        width: 100%;
+        .categoriest_items{
+            display: none;
+        }
+        .dropdown{
+            display: block;
+            margin-left: 20px;
+            a{
+                color: $main_text_color;
+            }
+                }
+      }
+      .social_items{
+          margin: 15px 0px 10px 60px;
+      } 
+}
+
+}
+
+
+
+
+

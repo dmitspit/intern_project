@@ -1,0 +1,22 @@
+footer {
+  font-size: 13px; }
+  footer .footer {
+    padding-bottom: 50px; }
+    footer .footer .dropdown {
+      display: none; }
+    footer .footer li {
+      list-style-type: none;
+      padding: 3px; }
+    footer .footer ul li a {
+      text-align: left;
+      opacity: 0.7;
+      color: #45413e; }
+  footer .contacts .contacts_info h6 {
+    margin: 20px 0px 20px 0px; }
+  footer .categoriest_items ul {
+    margin: 25px 0px 0px 0px; }
+  footer .social_items ul li {
+    display: inline;
+    opacity: 0.7; }
+
+/*# sourceMappingURL=section_footer.css.map */

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  #header nav .responsive_services {
+    display: inherit;
+    margin-left: 95px; }
+    #header nav .responsive_services a {
+      text-decoration: none;
+      color: #45413e; }
+    #header nav .responsive_services ul li a {
+      text-align: left;
+      padding-left: 0px; }
+    #header nav .responsive_services li {
+      list-style-type: none; }
+  #header nav .logo_company {
+    margin-left: 60px; }
+  #header nav .navbar-nav {
+    display: none; }
+    #header nav .navbar-nav .dropdown-menu {
+      display: none; }
+  #header nav .changeCurency, #header nav .changeLanguage a {
+    display: none; }
+  #header nav .social_items {
+    margin-left: 5px; }
+  #slider .slider .left_text {
+    left: 20px; }
+  #slider .slider .right_text {
+    right: 20px; }
+  #slider .slider .carousel-caption {
+    margin-bottom: 70px; }
+    #slider .slider .carousel-caption h3 {
+      font-size: 25px;
+      margin-bottom: 45px; }
+  .follow_info {
+    min-width: 100%;
+    margin-top: 20px; }
+  .popular_items_card {
+    margin-left: 40px; }
+  #popular_items .popular_items_card .card, #popular_items .outPut .card {
+    margin: 0px 0px 20px -28px; }
+  #baner .baner {
+    width: 100%;
+    height: 200px;
+    background-position: center center; }
+  #baner .col-12 {
+    margin-top: 15%; }
+  #baner h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 28px; }
+  #featured_carousel {
+    display: none; }
+  #benefints_content {
+    padding: 20px;
+    font-size: 14px; }
+  footer {
+    font-size: 14px; }
+    footer .footer {
+      height: 100%;
+      width: 100%; }
+      footer .footer .categoriest_items {
+        display: none; }
+      footer .footer .dropdown {
+        display: block;
+        margin-left: 20px; }
+        footer .footer .dropdown a {
+          color: #45413e; }
+    footer .social_items {
+      margin: 15px 0px 10px 60px; } }
+
+/*# sourceMappingURL=media.css.map */

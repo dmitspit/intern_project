@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+#exampleModalCenter .modal-header h2 {
+  margin-left: 180px; }
+
+#exampleModalCenter .modal-body form .submit {
+  margin-left: 150px; }
+  #exampleModalCenter .modal-body form .submit button {
+    padding: 2px 50px 2px 50px;
+    border-radius: 20px;
+    background-color: #84bc22;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 20px; }
+  #exampleModalCenter .modal-body form .submit a {
+    color: #84bc22;
+    position: absolute;
+    top: 80%;
+    left: -2%; }
+
+/*# sourceMappingURL=loginModal.css.map */
