@@ -1,6 +1,6 @@
 
 OSF Global Services summer internship project from PSD files
-======
+=======
 > Responsive Homepage(index.html) and product-detailed.html 320px mobile-S;
 ---
 ##### technology stack:
